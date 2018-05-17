@@ -1,0 +1,138 @@
+/*
+* @Author: dell
+* @Date:   2018-01-23 18:41:58
+* @Last Modified by:   dell
+* @Last Modified time: 2018-01-29 15:44:04
+*/
+@import url('base.css');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 551923 */
+    src: url('http://at.alicdn.com/t/font_551923_wn75hp3vofde7b9.eot');
+    src: url('http://at.alicdn.com/t/font_551923_wn75hp3vofde7b9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_551923_wn75hp3vofde7b9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_551923_wn75hp3vofde7b9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_551923_wn75hp3vofde7b9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #000000;
+    font-size: 30px;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+.icon1{
+    font-size: 24px;
+    margin-right: 5px;
+}
+.icon2{
+    margin-left: 20px;
+}
+.close{
+    color: #0d0d0d;
+}
+.icon4{
+    color: #C5C4C1;
+}
+.icon5{
+    color: #000000;
+}
+.t-box{
+    width: 100%;
+    height: 100%;
+    background: #FCFBF7;
+    padding:50px 40px;
+}
+.t-top{
+    width: 100%;
+    height: 100px;
+    padding:20px;
+
+}
+.t-top a{
+    display: block;
+    width: 100%;
+}
+.t-left{
+    float: left;
+    margin-right: 60px;
+}
+.t-center{
+    float: left;
+    color: #000000;
+    display: block;
+}
+.t-center a{
+    /*display: block;*/
+    text-decoration: none;
+}
+.t-bottom{
+    width: 100%;
+    height: 600px;
+}
+.b-left{
+    float: left;
+    padding:5px 30px;
+    display: flex;
+    justify-content: space-between;
+    /*position: relative;*/
+}
+.b-left a{
+    display: block;
+    text-decoration: none;
+}
+.b-right{
+    float: right;
+    width: 474px;
+    height: 285px;
+    padding:50px 40px 0 0;
+    font-weight: bolder;
+}
+.b-right a{
+    display: block;
+}
+.btn-left,.btn-right{
+    font-size: 30px;
+    color: #000000;
+    padding:200px 0px;
+
+}
+.datu{
+    padding:0 30px;
+}
+.image-title{
+    font: normal normal normal 24px/25px raleway,sans-serif;
+    color: #000000;
+    font-weight: lighter;
+}
+.b-right p{
+    color: #000000;
+    font: normal normal normal 15px/16px raleway,sans-serif;
+    margin-top:20px;
+    line-height: 1.2;
+}
+.yin-box{
+    width: 500px;
+    margin-left: 155px;
+    margin-top: -40px;
+    text-decoration: none;
+    display: none;
+}
+.t-center:hover .yin-box{
+    display: block;
+}
+.yin-box a{
+    display: block;
+    text-decoration: none;
+}
+.icon6{
+    font-size: 24px;
+    color: #000000;
+    margin-right: 30px;
+}
